@@ -1,0 +1,7 @@
+CREATE Table Booking(
+    id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(30),
+    date date,
+    time time,
+    category INT
+);
